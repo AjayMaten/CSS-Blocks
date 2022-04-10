@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  height: 500px;
+  width: 500px;
+}
+.brown {
+  background-color: #603601;
+  height: 200px;
+  width: 100px;
+  position: relative;
+  left: 123px;
+  z-index: 0;
+}
+.red {
+  background-color: red;
+  height: 200px;
+  width: 125px;
+  position: relative;
+  bottom: 100px;
+  z-index: -1;
+}
+
+.blue {
+  background-color: blue;
+  height: 200px;
+  width: 270px;
+  position: relative;
+  bottom: 300px;
+  left: 125px;
+}
+
+.turquoise {
+  background-color: #00ffc6;
+  height: 75px;
+  width: 150px;
+  position: relative;
+  bottom: 425px;
+  right: 100px;
+}
